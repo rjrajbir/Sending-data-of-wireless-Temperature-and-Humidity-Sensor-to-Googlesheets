@@ -158,11 +158,13 @@ Here you have to write little javacript code to create a condition,so the temper
  
  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_step9.JPG)
  
- - **Now enter random values to temperature and humidity fields.**
+ - **Now enter random values to temperature and humidity fields and click Get link.**
  
- ![alt tag]()
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_step10.JPG)
  
+ - **Now paste that link in notepad.**
  
+  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_notepad_step11.JPG)
   
  
  
