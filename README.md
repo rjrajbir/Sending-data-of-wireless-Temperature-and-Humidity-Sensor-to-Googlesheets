@@ -115,7 +115,7 @@ Here you have to write little javacript code to create a condition,so the temper
 
  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/function_step2.JPG)
  
- - **Now Add "http request" from the palette.**
+ - **Now Add "http request" node from the palette.**
  
  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/http_node_step1.JPG)
  
@@ -162,11 +162,44 @@ Here you have to write little javacript code to create a condition,so the temper
  
  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_step10.JPG)
  
+ 
  - **Now paste that link in notepad.**
  
   ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_notepad_step11.JPG)
   
+ - **Edit that link as shown in the picture below.**
  
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_notepad_step12.JPG)
  
+ - **Now go back to form and click on RESPONSES and then click on the googlesheet icon as shown in the picture below.**
  
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_step14.JPG)
  
+ - **Create a new spreadsheet.**
+ 
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_step15.JPG)
+ 
+ - **Here you are able to see a new spreadsheet,then give it some name as shown in the pictures below.**
+ 
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_step16.JPG)
+ 
+ - **Here you can visualize the values of temperature and humidity.**
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/googlesheet_step17.JPG)
+ 
+ - **Now go back to node-red and double click on http request node to edit it, then copy the URL from the notepad that you have saved and paste it in the URL field as shown in the figure.**
+ 
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/http_node_step2.JPG)
+You can also attach debug node to check the output the http node.
+
+- **Now Connect all the wires.**
+
+ ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/final_wire_connection.JPG)
+ 
+ - **Click on Deploy button to get the out on the googlesheet.**
+ 
+  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/final_flow.JPG)
+  
+  # OUTPUT
+  Now to go google spreadsheet and you'll see values are coming.
+  
+  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/output.JPG)
