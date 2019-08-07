@@ -109,7 +109,7 @@ The function node is used to run JavaScript code against the msg object. The fun
 
 - **Double click on the node to open up the configuration options.**
 
-Here you have to write little javacript code to create a condition,so the temperature and humidity values will be written in the excel. 
+Here you have to write little javacript code to create a condition,so the temperature and humidity values will be written in the googlesheet. 
 
  ![alt tag](https://github.com/rjrajbir/Sending-data-of-wireless-Temperature-and-Humidity-Sensor-to-Googlesheets/blob/master/function_step2.JPG)
  
